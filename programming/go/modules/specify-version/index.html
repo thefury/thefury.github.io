@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-10-23T10:43:13 EDT">
+<meta name="revised" content="2019-10-23T12:28:38 EDT">
 <title>Specifying a specific version :: DocDock Documentation</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -161,19 +161,19 @@
     
     
     
-    
+    <p>When using modules, it is possible to use specific package versions
+when compiling. I&rsquo;ve found that the easiest way to do this is through
+<code>go mod</code> using <code>tidy</code>, <code>vendor</code>, and <code>go get</code>.</p>
 
-<ul>
-<li>will attempt to use the latest version found in tags</li>
-<li>otherwise will attempt to use HEAD of master</li>
-</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># make sure you&#39;re outside of your GOPATH and you have modules initialized</span>
+go mod init github.com/thefury/sooperpackage
 
-<h2 id="pseudo">Pseudo</h2>
+<span style="color:#75715e"># get the specific version needed: hash, tag, branch can all be used</span>
+go get github.com/thefury/required_package@978da6523
+go mod vendor <span style="color:#75715e"># I like to do this in any case</span>
 
-<ul>
-<li>can select specific version by adding a semver</li>
-<li>can point to a specific commit using the following stuffs</li>
-</ul>
+<span style="color:#75715e"># you should see that the correct version is now used</span>
+cat go.mod</code></pre></div>
 
 
     
