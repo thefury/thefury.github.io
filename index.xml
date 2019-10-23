@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DocDock Documentation</title>
+    <link>/</link>
+    <description>Recent content on DocDock Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Oct 2019 14:06:37 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Usage</title>
+      <link>/programming/go/modules/basic-usage/</link>
+      <pubDate>Mon, 21 Oct 2019 14:06:37 -0400</pubDate>
+      
+      <guid>/programming/go/modules/basic-usage/</guid>
+      <description>go mod init go mod tidy </description>
+    </item>
+    
+    <item>
+      <title>Specifying a specific version</title>
+      <link>/programming/go/modules/specify-version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/programming/go/modules/specify-version/</guid>
+      <description>  will attempt to use the latest version found in tags otherwise will attempt to use HEAD of master  Pseudo  can select specific version by adding a semver can point to a specific commit using the following stuffs  </description>
+    </item>
+    
+  </channel>
+</rss>
