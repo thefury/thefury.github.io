@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2019-10-25T17:16:10 EDT">
-<title>Programming :: DocDock Documentation</title>
+<title>Automatic Test Generation :: DocDock Documentation</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/programming/">
+  <body data-url="/programming/go/testing/automatic-test-generation/">
     
       <header>
   <div class="logo">
@@ -67,17 +67,18 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/programming/" class="dd-item parent active haschildren
+    <li data-nav-id="/programming/" class="dd-item parent haschildren
         ">
       <div>
       <a href="/programming/">Programming</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-    <li data-nav-id="/programming/go/" class="dd-item haschildren
+    <li data-nav-id="/programming/go/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/programming/go/">Go</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/programming/go/">Go</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/programming/go/convert-reader-to-string/" class="dd-item">
@@ -87,13 +88,14 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-    <li data-nav-id="/programming/go/testing/" class="dd-item haschildren
+    <li data-nav-id="/programming/go/testing/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/programming/go/testing/">Testing</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/programming/go/testing/">Testing</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/programming/go/testing/automatic-test-generation/" class="dd-item">
+      <li data-nav-id="/programming/go/testing/automatic-test-generation/" class="dd-item active">
         <div>
           <a href="/programming/go/testing/automatic-test-generation/">
             Automatic Test Generation
@@ -156,11 +158,23 @@
       <center>Navigation : 
         <select onchange="javascript:location.href = this.value;">
           
-    <option value="/programming/"  selected>
+    <option value="/programming/" >
    Programming</option> 
     <option value="/programming/go/" >
   - 
-   Go</option>
+   Go</option> 
+      <option value="/programming/go/convert-reader-to-string/" >-- Convert io.Reader to String</option>
+    <option value="/programming/go/testing/" >
+  -- 
+   Testing</option> 
+      <option value="/programming/go/testing/automatic-test-generation/"  selected>--- Automatic Test Generation</option>
+      <option value="/programming/go/testing/table-driven-tests/" >--- Table Driven Tests</option>
+      <option value="/programming/go/testing/test-directories/" >--- Test Directories</option>
+  
+    <option value="/programming/go/modules/" >
+  -- 
+   Modules</option>
+  
   
 
 
@@ -184,21 +198,20 @@
       </div>
     
 
-    <h1>Programming</h1>
+    <h1>Automatic Test Generation</h1>
     
     
     
-
-<p>Programming directory</p>
-
+    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># geterate test skeleton for all Decrypt methods in `crypt`</span>
+gotests -only <span style="color:#d88200">&#34;Decrypt*&#34;</span> crypt/</code></pre></div>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/" title=""> <i class="fa fa-chevron-left"></i><label></label></a>
-    <a class="nav nav-next" href="/programming/go/" title="Go" style="margin-right: 0px;"><label>Go</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/programming/go/testing/" title="Testing"> <i class="fa fa-chevron-left"></i><label>Testing</label></a>
+    <a class="nav nav-next" href="/programming/go/testing/table-driven-tests/" title="Table Driven Tests" style="margin-right: 0px;"><label>Table Driven Tests</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -212,10 +225,14 @@
     
 
     
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 25/10/2019
+    </div>
+    
 
     
     <div class="github-link">
-      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/programming/_index.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/programming/go/testing/automatic-test-generation.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
     

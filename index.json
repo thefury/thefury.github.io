@@ -7,6 +7,48 @@
 	"content": "This is a main content\n"
 },
 {
+	"uri": "/programming/go/convert-reader-to-string/",
+	"title": "Convert io.Reader to String",
+	"tags": [],
+	"description": "",
+	"content": "Converting from an io.Reader to a string\nfunc ToString(r io.Reader) string { var buf.BytesBuffer buf.ReadFrom(r) return buf.String() } "
+},
+{
+	"uri": "/programming/go/",
+	"title": "Go",
+	"tags": [],
+	"description": "",
+	"content": "All the stuffs related to Go\n"
+},
+{
+	"uri": "/programming/go/testing/automatic-test-generation/",
+	"title": "Automatic Test Generation",
+	"tags": [],
+	"description": "",
+	"content": "# geterate test skeleton for all Decrypt methods in `crypt` gotests -only \u0026#34;Decrypt*\u0026#34; crypt/ "
+},
+{
+	"uri": "/programming/go/testing/",
+	"title": "Testing",
+	"tags": [],
+	"description": "",
+	"content": " Everything about Go testing\nGood Reads on Testing in Go  Go Advanced Testing Tips \u0026amp; Tricks Unfortunately, on Medium but otherwise some good advice here.  "
+},
+{
+	"uri": "/programming/go/testing/table-driven-tests/",
+	"title": "Table Driven Tests",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/programming/go/testing/test-directories/",
+	"title": "Test Directories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/programming/go/modules/basic-usage/",
 	"title": "Basic Usage",
 	"tags": [],
@@ -26,13 +68,6 @@
 	"tags": [],
 	"description": "",
 	"content": ""
-},
-{
-	"uri": "/programming/go/",
-	"title": "Go",
-	"tags": [],
-	"description": "",
-	"content": "All the stuffs related to Go\n"
 },
 {
 	"uri": "/programming/",

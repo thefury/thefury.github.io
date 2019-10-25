@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2019-10-25T17:16:10 EDT">
-<title>Programming :: DocDock Documentation</title>
+<title>Convert io.Reader to String :: DocDock Documentation</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/programming/">
+  <body data-url="/programming/go/convert-reader-to-string/">
     
       <header>
   <div class="logo">
@@ -67,20 +67,21 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/programming/" class="dd-item parent active haschildren
+    <li data-nav-id="/programming/" class="dd-item parent haschildren
         ">
       <div>
       <a href="/programming/">Programming</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-    <li data-nav-id="/programming/go/" class="dd-item haschildren
+    <li data-nav-id="/programming/go/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/programming/go/">Go</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/programming/go/">Go</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/programming/go/convert-reader-to-string/" class="dd-item">
+      <li data-nav-id="/programming/go/convert-reader-to-string/" class="dd-item active">
         <div>
           <a href="/programming/go/convert-reader-to-string/">
             Convert io.Reader to String
@@ -156,11 +157,19 @@
       <center>Navigation : 
         <select onchange="javascript:location.href = this.value;">
           
-    <option value="/programming/"  selected>
+    <option value="/programming/" >
    Programming</option> 
     <option value="/programming/go/" >
   - 
-   Go</option>
+   Go</option> 
+      <option value="/programming/go/convert-reader-to-string/"  selected>-- Convert io.Reader to String</option>
+    <option value="/programming/go/testing/" >
+  -- 
+   Testing</option>
+    <option value="/programming/go/modules/" >
+  -- 
+   Modules</option>
+  
   
 
 
@@ -184,21 +193,26 @@
       </div>
     
 
-    <h1>Programming</h1>
+    <h1>Convert io.Reader to String</h1>
     
     
     
+    <p>Converting from an <code>io.Reader</code> to a <code>string</code></p>
 
-<p>Programming directory</p>
-
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#00a8c8">func</span> <span style="color:#75af00">ToString</span><span style="color:#111">(</span><span style="color:#75af00">r</span> <span style="color:#75af00">io</span><span style="color:#111">.</span><span style="color:#75af00">Reader</span><span style="color:#111">)</span> <span style="color:#00a8c8">string</span> <span style="color:#111">{</span>
+  <span style="color:#00a8c8">var</span> <span style="color:#75af00">buf</span><span style="color:#111">.</span><span style="color:#75af00">BytesBuffer</span>
+  <span style="color:#75af00">buf</span><span style="color:#111">.</span><span style="color:#75af00">ReadFrom</span><span style="color:#111">(</span><span style="color:#75af00">r</span><span style="color:#111">)</span>
+  
+  <span style="color:#00a8c8">return</span> <span style="color:#75af00">buf</span><span style="color:#111">.</span><span style="color:#75af00">String</span><span style="color:#111">()</span>
+<span style="color:#111">}</span></code></pre></div>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/" title=""> <i class="fa fa-chevron-left"></i><label></label></a>
-    <a class="nav nav-next" href="/programming/go/" title="Go" style="margin-right: 0px;"><label>Go</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/programming/go/" title="Go"> <i class="fa fa-chevron-left"></i><label>Go</label></a>
+    <a class="nav nav-next" href="/programming/go/testing/" title="Testing" style="margin-right: 0px;"><label>Testing</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -212,10 +226,14 @@
     
 
     
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 25/10/2019
+    </div>
+    
 
     
     <div class="github-link">
-      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/programming/_index.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/programming/go/convert-reader-to-string.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
     
