@@ -7,6 +7,20 @@
 	"content": "This is a main content\n"
 },
 {
+	"uri": "/programming/go/testing/stubbing-mocking-fakes/",
+	"title": "Stubbing Mocking Fakes",
+	"tags": [],
+	"description": "",
+	"content": "  stubbing and such  Example of Creating a Simple Mock  example  "
+},
+{
+	"uri": "/programming/go/testing/",
+	"title": "Testing",
+	"tags": [],
+	"description": "",
+	"content": " Everything about Go testing\nGood Reads on Testing in Go  Go Advanced Testing Tips \u0026amp; Tricks Unfortunately, on Medium but otherwise some good advice here.  "
+},
+{
 	"uri": "/programming/go/convert-reader-to-string/",
 	"title": "Convert io.Reader to String",
 	"tags": [],
@@ -26,13 +40,6 @@
 	"tags": [],
 	"description": "",
 	"content": "# geterate test skeleton for all Decrypt methods in `crypt` gotests -only \u0026#34;Decrypt*\u0026#34; crypt/ "
-},
-{
-	"uri": "/programming/go/testing/",
-	"title": "Testing",
-	"tags": [],
-	"description": "",
-	"content": " Everything about Go testing\nGood Reads on Testing in Go  Go Advanced Testing Tips \u0026amp; Tricks Unfortunately, on Medium but otherwise some good advice here.  "
 },
 {
 	"uri": "/programming/go/testing/table-driven-tests/",

@@ -4,7 +4,17 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-10-25T17:09:43-04:00</lastmod>
+    <lastmod>2019-10-28T17:51:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programming/go/testing/stubbing-mocking-fakes/</loc>
+    <lastmod>2019-10-28T17:51:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/programming/go/testing/</loc>
+    <lastmod>2019-10-28T17:51:32-04:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +29,6 @@
   
   <url>
     <loc>/programming/go/testing/automatic-test-generation/</loc>
-    <lastmod>2019-10-25T11:47:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/programming/go/testing/</loc>
     <lastmod>2019-10-25T11:47:13-04:00</lastmod>
   </url>
   
