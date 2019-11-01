@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operations on DocDock Documentation</title>
+    <link>/operations/</link>
+    <description>Recent content in Operations on DocDock Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Nov 2019 11:56:36 -0400</lastBuildDate>
+    
+	<atom:link href="/operations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sftp Only Account</title>
+      <link>/operations/ssh/sftp-only-account/</link>
+      <pubDate>Fri, 01 Nov 2019 11:56:36 -0400</pubDate>
+      
+      <guid>/operations/ssh/sftp-only-account/</guid>
+      <description>a link</description>
+    </item>
+    
+  </channel>
+</rss>

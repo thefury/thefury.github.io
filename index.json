@@ -7,6 +7,20 @@
 	"content": "This is a main content\n"
 },
 {
+	"uri": "/operations/",
+	"title": "Operations",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/operations/ssh/sftp-only-account/",
+	"title": "Sftp Only Account",
+	"tags": [],
+	"description": "",
+	"content": "a link\n"
+},
+{
 	"uri": "/programming/go/testing/stubbing-mocking-fakes/",
 	"title": "Stubbing Mocking Fakes",
 	"tags": [],
