@@ -7,6 +7,20 @@
 	"content": "This is a main content\n"
 },
 {
+	"uri": "/programming/go/check-if-value-implements-interface/",
+	"title": "Check if Value Implements Interface",
+	"tags": [],
+	"description": "",
+	"content": "import ( \u0026#34;io\u0026#34; \u0026#34;strings\u0026#34; ) func main() { val := strings.NewReader(\u0026#34;haloo!\u0026#34;) _, ok := val.(io.Reader) fmt.Printf(\u0026#34;val implements io.Reader: %v\u0026#34;, ok) } "
+},
+{
+	"uri": "/programming/go/",
+	"title": "Go",
+	"tags": [],
+	"description": "",
+	"content": "All the stuffs related to Go\n"
+},
+{
 	"uri": "/operations/",
 	"title": "Operations",
 	"tags": [],
@@ -40,13 +54,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Converting from an io.Reader to a string\nfunc ToString(r io.Reader) string { var buf.BytesBuffer buf.ReadFrom(r) return buf.String() } "
-},
-{
-	"uri": "/programming/go/",
-	"title": "Go",
-	"tags": [],
-	"description": "",
-	"content": "All the stuffs related to Go\n"
 },
 {
 	"uri": "/programming/go/testing/automatic-test-generation/",

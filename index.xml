@@ -6,10 +6,19 @@
     <description>Recent content on DocDock Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 11:56:36 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 12:27:08 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Check if Value Implements Interface</title>
+      <link>/programming/go/check-if-value-implements-interface/</link>
+      <pubDate>Mon, 04 Nov 2019 12:27:08 -0500</pubDate>
+      
+      <guid>/programming/go/check-if-value-implements-interface/</guid>
+      <description>import ( &amp;#34;io&amp;#34; &amp;#34;strings&amp;#34; ) func main() { val := strings.NewReader(&amp;#34;haloo!&amp;#34;) _, ok := val.(io.Reader) fmt.Printf(&amp;#34;val implements io.Reader: %v&amp;#34;, ok) } </description>
+    </item>
     
     <item>
       <title>Sftp Only Account</title>
