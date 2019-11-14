@@ -6,10 +6,21 @@
     <description>Recent content on DocDock Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2019 12:27:08 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2019 10:29:20 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Live Edit Any Website</title>
+      <link>/programming/web/live-edit-any-website/</link>
+      <pubDate>Thu, 14 Nov 2019 10:29:20 -0500</pubDate>
+      
+      <guid>/programming/web/live-edit-any-website/</guid>
+      <description>Highlight the following text and drag to your bookmark bar:
+javascript:document.body.contentEditable = ‘true’; document.designMode=’on’; void 0  Fun, and possibly useful when showing edits to a client site.
+Scooped from: here</description>
+    </item>
     
     <item>
       <title>Check if Value Implements Interface</title>

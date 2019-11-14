@@ -7,6 +7,20 @@
 	"content": "This is a main content\n"
 },
 {
+	"uri": "/programming/web/live-edit-any-website/",
+	"title": "Live Edit Any Website",
+	"tags": [],
+	"description": "",
+	"content": "Highlight the following text and drag to your bookmark bar:\njavascript:document.body.contentEditable = ‘true’; document.designMode=’on’; void 0  Fun, and possibly useful when showing edits to a client site.\nScooped from: here\n"
+},
+{
+	"uri": "/programming/web/",
+	"title": "Web",
+	"tags": [],
+	"description": "",
+	"content": "All the stuffs related to Web in general\n"
+},
+{
 	"uri": "/programming/go/check-if-value-implements-interface/",
 	"title": "Check if Value Implements Interface",
 	"tags": [],

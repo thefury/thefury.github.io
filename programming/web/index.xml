@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on DocDock Documentation</title>
+    <link>/programming/web/</link>
+    <description>Recent content in Web on DocDock Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Nov 2019 10:29:20 -0500</lastBuildDate>
+    
+	<atom:link href="/programming/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Live Edit Any Website</title>
+      <link>/programming/web/live-edit-any-website/</link>
+      <pubDate>Thu, 14 Nov 2019 10:29:20 -0500</pubDate>
+      
+      <guid>/programming/web/live-edit-any-website/</guid>
+      <description>Highlight the following text and drag to your bookmark bar:
+javascript:document.body.contentEditable = ‘true’; document.designMode=’on’; void 0  Fun, and possibly useful when showing edits to a client site.
+Scooped from: here</description>
+    </item>
+    
+  </channel>
+</rss>
