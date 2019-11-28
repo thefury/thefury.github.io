@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-11-14T10:34:44 EST">
+<meta name="revised" content="2019-11-28T14:13:17 EST">
 <title>Testing :: DocDock Documentation</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -67,6 +67,35 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
+    <li data-nav-id="/azure/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/azure/">Azure</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/azure/setting-up-kubectl-for-aks/" class="dd-item">
+        <div>
+          <a href="/azure/setting-up-kubectl-for-aks/">
+            Setting Up kubectl for AKS
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/azure/logging-into-azure-container-registry/" class="dd-item">
+        <div>
+          <a href="/azure/logging-into-azure-container-registry/">
+            Logging Into Azure ACR
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/azure/connecting-az-cli/" class="dd-item">
+        <div>
+          <a href="/azure/connecting-az-cli/">
+            Connecting To the Azure CLI
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
     <li data-nav-id="/operations/" class="dd-item haschildren
         ">
       <div>
@@ -81,6 +110,24 @@
         </div>
     </li>
         </ul>
+    </li>
+    <li data-nav-id="/blog/" class="dd-item
+        ">
+      <div>
+      <a href="/blog/">Blog</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/docker/" class="dd-item
+        ">
+      <div>
+      <a href="/docker/">Docker</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="" class="dd-item
+        ">
+      <div>
+      <a href="">Kubernetes</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
     </li>
     <li data-nav-id="/programming/" class="dd-item parent haschildren
         ">
@@ -202,8 +249,16 @@
       <center>Navigation : 
         <select onchange="javascript:location.href = this.value;">
           
+    <option value="/azure/" >
+   Azure</option>
     <option value="/operations/" >
    Operations</option>
+    <option value="/blog/" >
+   Blog</option>
+    <option value="/docker/" >
+   Docker</option>
+    <option value="" >
+   Kubernetes</option>
     <option value="/programming/" >
    Programming</option> 
     <option value="/programming/web/" >
@@ -212,19 +267,7 @@
     <option value="/programming/go/" >
   - 
    Go</option> 
-      <option value="/programming/go/check-if-value-implements-interface/" >-- Check if Value Implements Interface</option>
-    <option value="/programming/go/testing/"  selected>
-  -- 
-   Testing</option> 
-      <option value="/programming/go/testing/stubbing-mocking-fakes/" >--- Stubbing Mocking Fakes</option>
-      <option value="/programming/go/testing/automatic-test-generation/" >--- Automatic Test Generation</option>
-      <option value="/programming/go/testing/table-driven-tests/" >--- Table Driven Tests</option>
-      <option value="/programming/go/testing/test-directories/" >--- Test Directories</option>
-  
-      <option value="/programming/go/convert-reader-to-string/" >-- Convert io.Reader to String</option>
-    <option value="/programming/go/modules/" >
-  -- 
-   Modules</option>
+      <option value="/operations/ssh/sftp-only-account/" >-- Sftp Only Account</option>
   
   
 

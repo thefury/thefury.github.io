@@ -4,7 +4,27 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-14T10:29:20-05:00</lastmod>
+    <lastmod>2019-11-28T13:36:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/azure/</loc>
+    <lastmod>2019-11-28T13:36:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/azure/setting-up-kubectl-for-aks/</loc>
+    <lastmod>2019-11-28T13:36:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/azure/logging-into-azure-container-registry/</loc>
+    <lastmod>2019-11-28T13:36:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/azure/connecting-az-cli/</loc>
+    <lastmod>2019-11-28T13:35:52-05:00</lastmod>
   </url>
   
   <url>
@@ -78,7 +98,15 @@
   </url>
   
   <url>
+    <loc>/blog/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/docker/</loc>
   </url>
   
   <url>

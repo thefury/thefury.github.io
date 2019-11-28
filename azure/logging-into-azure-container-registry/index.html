@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2019-11-28T14:13:17 EST">
-<title>Categories :: DocDock Documentation</title>
+<title>Logging Into Azure ACR :: DocDock Documentation</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/categories/">
+  <body data-url="/azure/logging-into-azure-container-registry/">
     
       <header>
   <div class="logo">
@@ -67,10 +67,11 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/azure/" class="dd-item haschildren
+    <li data-nav-id="/azure/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/azure/">Azure</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/azure/">Azure</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/azure/setting-up-kubectl-for-aks/" class="dd-item">
@@ -80,7 +81,7 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-      <li data-nav-id="/azure/logging-into-azure-container-registry/" class="dd-item">
+      <li data-nav-id="/azure/logging-into-azure-container-registry/" class="dd-item active">
         <div>
           <a href="/azure/logging-into-azure-container-registry/">
             Logging Into Azure ACR
@@ -247,7 +248,11 @@
         <select onchange="javascript:location.href = this.value;">
           
     <option value="/azure/" >
-   Azure</option>
+   Azure</option> 
+      <option value="/azure/setting-up-kubectl-for-aks/" >- Setting Up kubectl for AKS</option>
+      <option value="/azure/logging-into-azure-container-registry/"  selected>- Logging Into Azure ACR</option>
+      <option value="/azure/connecting-az-cli/" >- Connecting To the Azure CLI</option>
+  
     <option value="/operations/" >
    Operations</option>
     <option value="/blog/" >
@@ -280,33 +285,12 @@
       </div>
     
 
-    <h1>Categories</h1>
+    <h1>Logging Into Azure ACR</h1>
     
     
     
-
-
-
-<div class="extra-pagination inner">
-<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 0</span>
-	
-</nav>
-
-</div>
-
-
-
-<div style="margin-bottom:2rem"></div>
-
-<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 0</span>
-	
-</nav>
-
-
+    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># first login with `az login`</span>
+az acr login --name my-container-registry</code></pre></div>
 
 
     
@@ -328,10 +312,14 @@
     
 
     
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 28/11/2019
+    </div>
+    
 
     
     <div class="github-link">
-      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/azure/logging-into-azure-container-registry.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
     

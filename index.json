@@ -7,6 +7,34 @@
 	"content": "This is a main content\n"
 },
 {
+	"uri": "/azure/",
+	"title": "Azure",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/azure/setting-up-kubectl-for-aks/",
+	"title": "Setting Up kubectl for AKS",
+	"tags": [],
+	"description": "",
+	"content": "If you haven\u0026rsquo;t already installed kubectl, you can do so with the following:\n# if you haven\u0026#39;t already sinatlled `kubectl` for your system... az aks install-cli # Connect to your cluster az aks get-credentials--resource-group myGroup --name myAKSCluster "
+},
+{
+	"uri": "/azure/logging-into-azure-container-registry/",
+	"title": "Logging Into Azure ACR",
+	"tags": [],
+	"description": "",
+	"content": "# first login with `az login` az acr login --name my-container-registry "
+},
+{
+	"uri": "/azure/connecting-az-cli/",
+	"title": "Connecting To the Azure CLI",
+	"tags": [],
+	"description": "",
+	"content": "It\u0026rsquo;s as simple as:\naz login # opens a browser window for authentication "
+},
+{
 	"uri": "/programming/web/live-edit-any-website/",
 	"title": "Live Edit Any Website",
 	"tags": [],
@@ -105,8 +133,22 @@
 	"content": "Everything about Go modules\n"
 },
 {
+	"uri": "/blog/",
+	"title": "Blog",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/categories/",
 	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/docker/",
+	"title": "Docker",
 	"tags": [],
 	"description": "",
 	"content": ""

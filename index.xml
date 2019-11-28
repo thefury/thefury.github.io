@@ -6,10 +6,39 @@
     <description>Recent content on DocDock Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Nov 2019 10:29:20 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 28 Nov 2019 13:36:55 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting Up kubectl for AKS</title>
+      <link>/azure/setting-up-kubectl-for-aks/</link>
+      <pubDate>Thu, 28 Nov 2019 13:36:55 -0500</pubDate>
+      
+      <guid>/azure/setting-up-kubectl-for-aks/</guid>
+      <description>If you haven&amp;rsquo;t already installed kubectl, you can do so with the following:
+# if you haven&amp;#39;t already sinatlled `kubectl` for your system... az aks install-cli # Connect to your cluster az aks get-credentials--resource-group myGroup --name myAKSCluster </description>
+    </item>
+    
+    <item>
+      <title>Logging Into Azure ACR</title>
+      <link>/azure/logging-into-azure-container-registry/</link>
+      <pubDate>Thu, 28 Nov 2019 13:36:16 -0500</pubDate>
+      
+      <guid>/azure/logging-into-azure-container-registry/</guid>
+      <description># first login with `az login` az acr login --name my-container-registry </description>
+    </item>
+    
+    <item>
+      <title>Connecting To the Azure CLI</title>
+      <link>/azure/connecting-az-cli/</link>
+      <pubDate>Thu, 28 Nov 2019 13:35:52 -0500</pubDate>
+      
+      <guid>/azure/connecting-az-cli/</guid>
+      <description>It&amp;rsquo;s as simple as:
+az login # opens a browser window for authentication </description>
+    </item>
     
     <item>
       <title>Live Edit Any Website</title>

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2019-11-28T14:13:17 EST">
-<title>Categories :: DocDock Documentation</title>
+<title>Azure :: DocDock Documentation</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/categories/">
+  <body data-url="/azure/">
     
       <header>
   <div class="logo">
@@ -67,10 +67,11 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/azure/" class="dd-item haschildren
+    <li data-nav-id="/azure/" class="dd-item parent active haschildren
         ">
       <div>
-      <a href="/azure/">Azure</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/azure/">Azure</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/azure/setting-up-kubectl-for-aks/" class="dd-item">
@@ -246,8 +247,12 @@
       <center>Navigation : 
         <select onchange="javascript:location.href = this.value;">
           
-    <option value="/azure/" >
-   Azure</option>
+    <option value="/azure/"  selected>
+   Azure</option> 
+      <option value="/azure/setting-up-kubectl-for-aks/" >- Setting Up kubectl for AKS</option>
+      <option value="/azure/logging-into-azure-container-registry/" >- Logging Into Azure ACR</option>
+      <option value="/azure/connecting-az-cli/" >- Connecting To the Azure CLI</option>
+  
     <option value="/operations/" >
    Operations</option>
     <option value="/blog/" >
@@ -280,7 +285,7 @@
       </div>
     
 
-    <h1>Categories</h1>
+    <h1>Azure</h1>
     
     
     
@@ -290,19 +295,72 @@
 <div class="extra-pagination inner">
 <nav class="pagination" role="navigation">
 	
-	<span class="page-number">Page 1 of 0</span>
+	<span class="page-number">Page 1 of 1</span>
 	
 </nav>
 
 </div>
 
 
+   <article class="post azure">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/azure/setting-up-kubectl-for-aks/">Setting Up kubectl for AKS</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>If you haven&rsquo;t already installed kubectl, you can do so with the following:
+# if you haven&#39;t already sinatlled `kubectl` for your system... az aks install-cli # Connect to your cluster az aks get-credentials--resource-group myGroup --name myAKSCluster  <a class="read-more" href="/azure/setting-up-kubectl-for-aks/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+   <article class="post azure">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/azure/logging-into-azure-container-registry/">Logging Into Azure ACR</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p># first login with `az login` az acr login --name my-container-registry  <a class="read-more" href="/azure/logging-into-azure-container-registry/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
+   <article class="post azure">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/azure/connecting-az-cli/">Connecting To the Azure CLI</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>It&rsquo;s as simple as:
+az login # opens a browser window for authentication  <a class="read-more" href="/azure/connecting-az-cli/">&raquo;</a></p>
+    </section>
+    <footer class=" footline" >
+         
+        
+
+        
+        
+
+    </footer>
+</article>
+
 
 <div style="margin-bottom:2rem"></div>
 
 <nav class="pagination" role="navigation">
 	
-	<span class="page-number">Page 1 of 0</span>
+	<span class="page-number">Page 1 of 1</span>
 	
 </nav>
 
@@ -328,10 +386,14 @@
     
 
     
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 28/11/2019
+    </div>
+    
 
     
     <div class="github-link">
-      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/azure/_index.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
     
