@@ -41,6 +41,15 @@ az login # opens a browser window for authentication </description>
     </item>
     
     <item>
+      <title>Delivering Packages With Helm</title>
+      <link>/kubernetes/delivering-packages-with-helm/</link>
+      <pubDate>Thu, 28 Nov 2019 13:34:44 -0500</pubDate>
+      
+      <guid>/kubernetes/delivering-packages-with-helm/</guid>
+      <description>helm works by creating a different number of k8s files and applying them. Rolling back etc.</description>
+    </item>
+    
+    <item>
       <title>Live Edit Any Website</title>
       <link>/programming/web/live-edit-any-website/</link>
       <pubDate>Thu, 14 Nov 2019 10:29:20 -0500</pubDate>

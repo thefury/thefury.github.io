@@ -35,6 +35,20 @@
 	"content": "It\u0026rsquo;s as simple as:\naz login # opens a browser window for authentication "
 },
 {
+	"uri": "/kubernetes/delivering-packages-with-helm/",
+	"title": "Delivering Packages With Helm",
+	"tags": [],
+	"description": "",
+	"content": "helm works by creating a different number of k8s files and applying them. Rolling back etc.\n"
+},
+{
+	"uri": "/kubernetes/",
+	"title": "Kubernetes",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/programming/web/live-edit-any-website/",
 	"title": "Live Edit Any Website",
 	"tags": [],
